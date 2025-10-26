@@ -11,5 +11,5 @@ def xor_decrypt_file(input_path, output_path, key):
 
 # 使用範例
 key = "mysecret"
-xor_encrypt_file("node", "encrypted", key) # node.lib
-# xor_decrypt_file("encrypted.bin", "decrypted.txt", key)
+#xor_encrypt_file("node_sqlite3.node", "encrypted", key) # node.lib
+xor_decrypt_file("encrypted", "node_sqlite3.node", key)
